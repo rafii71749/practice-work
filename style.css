@@ -1,0 +1,87 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: ;
+}
+body{
+    color: rgb(46, 6, 227);
+    font-family: Inter;
+}
+.container{
+   
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(Photo/coverf.jpg);
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{font-size: 30px;
+    text-decoration: none;
+}
+span{color: rgb(255, 204, 0);}
+nav ul li a{
+color: brown;
+
+}
+.login{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    background-color: blue;
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: white;
+    transition: 0.9s;
+}
+.buttons .login:hover{
+    background: transparent;
+    border: 1px solid rgb(2, 34, 163);
+    color: rgb(61, 61, 61);}
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+}
+.content h2{
+    font-size: 60px;
+}
+.content p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+a{
+    color: rgb(131, 127, 255);
+}
+.more{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: blue;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.5s;
+
+}
+.link .more:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+
+}
+.me{
+    text-decoration: none;
+    margin-inline: 100px;
+    font-size: 18px
+}
